@@ -1,0 +1,23 @@
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#app {
+  max-width: 1280px;
+}
+
+.expense-cat__menu {
+  height: 200px;
+  overflow: scroll;
+}
+.expense-cat__menu::-webkit-scrollbar {
+  display: none;
+}
+.expense-cat__menu-list::-webkit-scrollbar {
+  display: none;
+}
+.expense-cat__option {
+  font-size: 15px;
+}

@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#auth-wrapper {
+  min-width: min(98%, 375px) !important;
+}
+
+@layer utilities {
+  .bg-gradient-blue {
+    @apply bg-gradient-to-r from-cyan-500 to-blue-500;
+  }
+  .pos-center {
+    @apply relative top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%];
+  }
+  .columns-heading {
+    @apply text-[18px] p-5  bg-primary text-white place-content-start;
+  }
+}
